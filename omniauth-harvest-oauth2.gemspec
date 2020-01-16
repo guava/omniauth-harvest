@@ -3,12 +3,12 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'omniauth/harvest/version'
 
 Gem::Specification.new do |s|
-  s.name     = 'omniauth-harvest'
+  s.name     = 'omniauth-harvest-oauth2'
   s.version  = OmniAuth::Harvest::VERSION
-  s.authors  = ['Robert May']
-  s.email    = ['robotmay@gmail.com']
+  s.authors  = ['Matheus Santana', 'Robert May']
+  s.email    = ['matheus@guava.software', 'robotmay@gmail.com']
   s.summary  = 'Harvest strategy for OmniAuth'
-  s.homepage = 'https://github.com/corewebdesign/omniauth-harvest'
+  s.homepage = 'https://github.com/guava/omniauth-harvest-oauth2'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

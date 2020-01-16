@@ -9,7 +9,7 @@ Harvest OAuth2 Strategy for OmniAuth 1.0. Largely inspired by Shopify's OmniAuth
 Add to your `Gemfile`:
 
 ```ruby
-gem 'omniauth-harvest'
+gem 'omniauth-harvest-oauth2', require: 'omniauth-harvest'
 ```
 
 Then run `bundle install`.
